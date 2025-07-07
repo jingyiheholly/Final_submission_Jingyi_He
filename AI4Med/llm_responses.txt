@@ -1,0 +1,791 @@
+Clean response:
+case0005_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description mistakenly references a T1-weighted MRI scan of the brain, whereas the ground truth description specifically mentions a chest X-ray.
+
+Clean response:
+case0005_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description focuses on T1-weighting and mentions hypointense signal characteristics in the left thalamus, whereas the ground truth description provides T2* imaging and describes drop out signals in bilateral basal ganglia corresponding to calcifications seen on CT, indicating a mismatch in imaging modality and lesion location.
+3. Score: 0.2 (the prediction is partially relevant to the clinical findings but fails to match the imaging modality and lesion location, and the clinical context is not adequately addressed.)
+
+Clean response:
+case0005_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the location of the abnormality as the thalamus, whereas the ground truth describes bilateral symmetrical hyperintense basal ganglia.
+3. Score: 0.2 (the prediction only partially captures the clinical findings, with a key difference in location and a lack of mention of basal ganglia involvement)
+
+Clean response:
+case0012_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description mentions acute ischemic stroke or cytotoxic edema, whereas the ground truth description indicates no definite rim of restriction, suggesting a different clinical presentation or diagnosis. 
+
+Score: 0.4 (the prediction is partially relevant but does not accurately capture the clinical findings, with a focus on the absence of a characteristic "rim of restriction")
+
+Clean response:
+case0012_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description mistakenly mentions a brain MRI image and a FLAIR sequence, which is not present in the ground truth description, which is a chest X-ray.
+3. 0 (the prediction does not accurately describe the findings in the ground truth description)
+
+Clean response:
+case0012_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately describes the imaging modality (MRI instead of X-ray) and does not mention the specific location of the hyperintensity (centrum semiovale instead of periventricular regions).
+3. Score: 0.0 (The prediction is completely off-track and does not provide any relevant information about the chest X-ray image.)
+
+Clean response:
+case0012_004.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the type of lesion (calcification or hemorrhage) and location (cerebral cortex) and also incorrectly mentions MRI instead of a chest X-ray.
+3. Score: 0.0
+
+Clean response:
+case0012_005.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions the left frontal lobe, while the ground truth mentions the left centrum semiovale, indicating a discrepancy in the location of the abnormality.
+3. Score: 0.2 (The predicted description partially aligns with the ground truth in terms of the imaging sequence and the type of abnormality, but deviates significantly in terms of location.)
+
+Clean response:
+case0012_006.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions the left temporal lobe, whereas the ground truth description mentions the left centrum semiovale, periventricular, and subcortical white matter, indicating a difference in the location of the abnormality.
+3. Score: 0.4 (the predicted description partially captures the general nature of the abnormality as hyperintense but inaccurately localizes it to the temporal lobe instead of the specified areas in the ground truth description.)
+
+Clean response:
+case0018_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly identifies the imaging modality as T1-weighted MRI of the brain, whereas the ground truth description clearly states it is a T1 transversal, which typically refers to a different orientation or plane of the MRI scan.
+
+Clean response:
+case0018_002.png
+assistant
+
+Alignment: Not Aligned
+
+Key difference: The predicted description mentions a T1-weighted scan, whereas the ground truth description is a T1 post-contrast scan with gadolinium enhancement, which is a different imaging sequence and potentially changes the interpretation of the findings.
+
+Score: 0.3 (The predicted description does not address the contrast enhancement, which is a crucial aspect of the ground truth description, indicating a significant difference between the two.)
+
+Clean response:
+case0018_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly mentions a T2-weighted MRI of the brain, whereas the ground truth description is actually an MRI T2 coronal, but more importantly, it does not mention any of the abnormalities described in the predicted report.
+3. Score: 0
+
+Clean response:
+case0034_001.png
+assistant
+
+1. Aligned
+2. The predicted description aligns with the ground truth, as both mention an infratentorial midline abnormal signal intensity area appearing hypointense on T1-weighted imaging, with the ground truth describing a "dirty CSF" appearance.
+3. Score: 0.9 (the predicted description closely matches the ground truth, with the only minor difference being the specific mention of calcifications, hemorrhage, or necrotic components in the predicted description, which is not mentioned in the ground truth.)
+
+Clean response:
+case0034_002.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description inaccurately describes the image as an axial T1-weighted MRI scan of the brain, when in fact, it is a chest X-ray, and it also mentions MRI findings, which is not applicable to a chest X-ray.
+
+Clean response:
+case0034_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately describes the imaging modality as MRI, whereas the ground truth description mentions a chest X-ray.
+3. 0.2 (The predicted description contains significant errors in terms of imaging modality, location, and clinical context, which deviate from the actual findings described in the ground truth.)
+
+Clean response:
+case0034_004.png
+assistant
+
+1. Not Aligned
+2. The predicted description provides a detailed analysis of the FLAIR sequence, but the ground truth description is more concise and focuses on the "dirty CSF" appearance, which is not explicitly mentioned in the predicted description.
+3. Score: 0.4 (out of 1) - The predicted description is partially aligned, but lacks specific details and clarity in describing the clinical significance and implications of the "dirty CSF" appearance, which is a critical aspect of the ground truth description.
+
+Clean response:
+case0034_005.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions a sagittal T1-weighted MRI scan, which is not consistent with a chest X-ray, and focuses on cerebellar abnormalities, whereas the ground truth describes a dilated lateral ventricle, which is more relevant to brain imaging.
+3. Score: 0.0 (the prediction does not address the correct imaging modality or the specific finding of a dilated lateral ventricle)
+
+Clean response:
+case0043_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description refers to a brain MRI, whereas the ground truth description is a chest X-ray, indicating a significant mismatch in the image type and location of the abnormality.
+
+Clean response:
+case0043_002.png
+assistant
+
+Alignment: Aligned
+
+Key Similarity/Difference: The predicted description accurately identifies the location (deep periventricular white matter) and type (hyperintensities) of the abnormality, but it inaccurately mentions FLAIR as the imaging sequence and omits the mention of hypointense cysts within the affected white matter.
+
+Score: 0.8
+
+Explanation: The predicted description aligns well with the clinical findings in the ground truth description regarding the location and type of abnormality, but contains minor inaccuracies regarding the imaging sequence and the presence of hypointense cysts.
+
+Clean response:
+case0043_003.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description mentions calcifications or hemosiderin deposits in the brain, which is not mentioned in the ground truth description, which instead mentions hypointense cysts in deep periventricular white matter. 
+
+Score: 0.2 (very low, as the prediction introduces new and unrelated information that does not match the ground truth)
+
+Clean response:
+case0043_004.png
+assistant
+
+1. Not Aligned
+2. The predicted description does not mention the presence of hypointense cysts in deep periventricular white matter, which is a key finding in the ground truth description.
+3. Score: 0.3 (the predicted description is partially correct in stating normal signal intensity but fails to mention a critical abnormal finding)
+
+Clean response:
+case0043_005.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the sequence as an MRI of the brain, whereas the ground truth is a chest X-ray, and also mentions ventricles, which are not visible on a chest X-ray.
+3. Score: 0.2 (due to significant errors in image modality and anatomical structures mentioned)
+
+Clean response:
+case0054_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately identifies the location of the abnormality as the white matter region near the basal ganglia and thalamus, whereas the ground truth description indicates a decrease in signal intensity in the splenium of the corpus callosum.
+3. 0.0 (the predicted description does not accurately match the clinical findings in the ground truth description)
+
+Clean response:
+case0061_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description inaccurately describes the imaging sequence (T1-weighted post-contrast MRI) and fails to mention the 3D sequence, instead mentioning T1-weighted post-contrast MRI, which is not the same.
+
+Clean response:
+case0061_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the imaging modality (T1-weighted MRI) and the location (frontal lobe) of the abnormality, whereas the ground truth describes a hypointense area within an intraventricular mass.
+3. Score: 0.2 (2/10)
+
+Clean response:
+case0070_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description refers to an axial T1-weighted MRI of the brain, whereas the ground truth description describes a chest X-ray, indicating a mismatch in the imaging modality and location.
+3. 0 (as the predicted description is completely unrelated to the actual clinical scenario and imaging modality described in the ground truth)
+
+Clean response:
+case0070_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions an axial T1-weighted MRI of the brain, which is incorrect as the ground truth is a chest X-ray, not an MRI, and it describes a hemorrhage in the dorsal pons, whereas the predicted description mentions a vascular structure with calcification.
+3. 0 (the prediction is completely unrelated to the ground truth description)
+
+Clean response:
+case0070_003.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is focused on a brain MRI image, whereas the ground truth description is related to a chest X-ray, indicating a hemorrhage in the dorsal pons, which is a region in the brainstem, not the temporal lobe. 
+
+Score: 0 (the predicted description is completely off-topic and unrelated to the ground truth description)
+
+Clean response:
+case0070_004.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is entirely unrelated to the clinical findings in the ground truth description, which mentions an expansile lesion of the right medullary olive on a chest X-ray, whereas the predicted description pertains to a brain MRI sequence and discusses various potential pathologies of the brain, particularly the corpus callosum.
+
+Clean response:
+case0070_005.png
+assistant
+
+1. Not Aligned
+2. The predicted description is overly broad and does not specify the location (medullary olive) or the nature of the lesion (expansile), which are critical details not mentioned in the predicted description.
+3. Score: 0.3 (out of 1)
+
+Clean response:
+case0070_006.png
+assistant
+
+1. Not Aligned
+2. The predicted description mistakenly identifies the imaging modality as MRI brain scan, whereas the ground truth is a chest X-ray, and it does not mention any specific brain or neurological findings.
+3. Score: 0 (the predicted description does not even mention the correct anatomical location or clinical context of the finding, which is a key aspect of the ground truth description)
+
+Clean response:
+case0070_007.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is entirely focused on a T1-weighted MRI of the brain, whereas the ground truth description describes an expansile lesion of the right medullary olive on a chest X-ray, which is a different imaging modality and anatomical location.
+
+Score: 0.0 (the predicted description does not even mention the correct anatomical location, imaging modality, or clinical context, making it completely unaligned with the ground truth description)
+
+Clean response:
+case0070_008.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the location as the pituitary gland area instead of the dorsal pons, and the clinical findings are related to hemorrhage, whereas the predicted description mentions subacute hemorrhage without mentioning the specific location.
+3. Score: 0.05 (the description is partially correct regarding the signal characteristics of subacute hemorrhage, but the location is significantly incorrect and the clinical context is entirely different)
+
+Clean response:
+case0070_009.png
+assistant
+
+Alignment: Not Aligned
+
+Brief Explanation: The predicted description mentions a sagittal T1-weighted MRI of the brain, whereas the ground truth description specifically refers to a chest X-ray, indicating a significant difference in the imaging modality and the region of interest.
+
+Score: 0 (the predicted description is completely unrelated to the ground truth description)
+
+Clean response:
+case0070_010.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is not aligned with the ground truth description, as it describes a brain MRI, whereas the ground truth description mentions a hemorrhage of the dorsal pons, which is a finding typically observed on CT scans or other modalities rather than MRI.
+
+Score: 0.0 (the predicted description is completely off-topic and lacks any relevant information to support the clinical findings described in the ground truth)
+
+Clean response:
+case0070_011.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the location as the pineal gland, whereas the ground truth mentions the dorsal pons, indicating a significant discrepancy in anatomical location.
+3. Score: 0.2 (the description touches on potential causes and implications but lacks specificity and accuracy regarding the actual location of the abnormality.)
+
+Clean response:
+case0080_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly refers to the axial diffusion-weighted MRI of the brain, whereas the ground truth description is actually an ADC map showing hyperintense lesions in the globus pallidi, which is not a typical location for a thalamus.
+
+Clean response:
+case0080_002.png
+assistant
+
+Alignment: Not Aligned
+Key difference: The predicted description incorrectly mentions the brain MRI sequence as "FLAIR" when the ground truth description specifically states it's a "chest X-ray", not a brain MRI.
+
+Score: 0.2 (The predicted description is completely off-target and fails to match the clinical findings, indicating a significant mismatch.)
+
+Clean response:
+case0080_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description is not aligned with the ground truth description as it mentions T2-weighted MRI, while the ground truth description refers to an axial FLAIR image, indicating a discrepancy in imaging modality.
+3. Score: 0.2 (2/10) - The prediction is only partially correct in identifying hyperintensity in the brain but fails to match the imaging modality and the specific location (brainstem).
+
+Clean response:
+case0080_004.png
+assistant
+
+1. Not Aligned
+2. The predicted description is not aligned with the ground truth as it describes an MRI scan of the brain, whereas the ground truth mentions a gadolinium-enhanced T1-weighted image of the chest, indicating a significant difference in imaging modality.
+3. 0 (the predicted description does not match the ground truth at all, as it is from a different imaging modality and does not describe the clinical findings in the ground truth)
+
+Clean response:
+case0080_005.png
+assistant
+
+1. Not Aligned
+2. The predicted description is overly broad and does not mention the specific finding of peripheral enhancement of the lentiform nuclei, which is a key abnormality in the ground truth description.
+3. 0.0 (the prediction is completely off-target and does not capture the main clinical finding)
+
+Clean response:
+case0080_006.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately refers to the brain MRI as T2-weighted, when the ground truth describes it as an axial T2-weighted image of the chest, not the brain.
+3. 0 (the prediction does not even address the correct anatomical location or the clinical context of the image, indicating a significant mismatch)
+
+Clean response:
+case0088_001.png
+assistant
+
+1. Aligned
+2. The predicted description accurately captures the clinical implications and possible causes of the diffusion-weighted imaging findings, although it incorrectly labels the imaging modality as MRI instead of CT.
+3. Score: 0.8 (the prediction accurately identifies the clinical implications and possible causes, but contains a modality error)
+
+Clean response:
+case0088_002.png
+assistant
+
+Alignment: Not Aligned
+
+Key Similarities/Differences: The predicted description is entirely focused on MRI findings, whereas the ground truth description is based on an ADC map, which is a CT-based imaging technique, indicating a mismatch between the predicted and actual imaging modality.
+
+Score: 0.2 (The predicted description does not accurately reflect the clinical findings in the ground truth description due to the discrepancy in imaging modality.)
+
+Clean response:
+case0088_003.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description describes a brain MRI, whereas the ground truth description mentions a chest X-ray, indicating a significant mismatch in the imaging modality and the organ of interest.
+
+Score: 0 (The predicted description does not even mention the chest X-ray, let alone describe its findings, making it a completely unrelated and incorrect description for the ground truth.)
+
+Clean response:
+case0088_004.png
+assistant
+
+Alignment: Aligned
+Brief explanation: The predicted description mentions enhancement following contrast administration, which matches the ground truth description of intense enhancement after paramagnetic contrast injection.
+
+Score: 0.8
+
+Reasoning: The predicted description accurately captures the key finding of enhancement, but lacks specificity regarding the lesion's location (axial T1-weighted post-contrast MRI of the brain) and clinical implications, which are present in the ground truth description.
+
+Clean response:
+case0106_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly mentions an axial T1-weighted post-contrast MRI sequence of the brain, whereas the ground truth description describes a postcontrast T1 fat sat scan, indicating a different imaging sequence.
+3. Score: 0.2 (the prediction is partially correct in mentioning a ring-enhancing lesion and left-sided location, but it incorrectly identifies the sequence and mischaracterizes the lesion as a T1-weighted sequence instead of a T1 fat sat sequence.)
+
+Clean response:
+case0106_002.png
+assistant
+
+Alignment: Aligned
+Brief explanation: The predicted description correctly identifies the ring-enhancing lesion in the posterior fossa region and mentions potential pathologies, although it inaccurately specifies the imaging sequence as T1-weighted post-contrast MRI of the brain, which is not mentioned in the ground truth description.
+
+Score: 0.8 (The predicted description is mostly accurate, with only minor discrepancies in the imaging sequence and the specific mention of T1-weighted post-contrast MRI of the brain.)
+
+Clean response:
+case0106_003.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly references an MRI image of the brain, whereas the ground truth is a chest X-ray, and the findings described (heterogeneously hypointense lesion, oedema, and fourth ventricle narrowing) do not match any typical brain lesion or anatomy.
+
+Clean response:
+case0106_004.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the lesion as hyperintense on T2-weighted imaging and mentions multiple foci, whereas the ground truth describes the lesion as hypo to isointense with internal hypointense area, indicating a more subtle abnormality.
+3. 0.2 (the prediction only partially captures some aspects of the ground truth, but major details and overall clinical implications are not accurately represented)
+
+Clean response:
+case0113_001.png
+assistant
+
+Alignment: Aligned
+
+Key similarities/differences: The predicted description mentions a hyperintense signal in the right frontal lobe, which aligns with the ground truth description of a well-defined hyperintense lesion in the right frontal region.
+
+Score: 0.8 (The predicted description provides a clear and specific location, imaging characteristics, and differential diagnoses, but lacks specific details about the lesion's appearance and potential clinical implications, which are mentioned in the ground truth description.)
+
+Clean response:
+case0113_002.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description inaccurately describes the image as an axial T2-weighted MRI scan of the brain, whereas the ground truth description indicates a T2-weighted axial image of the chest, not the brain.
+
+Clean response:
+case0113_003.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description does not accurately match the ground truth description as it does not mention the presence of a hemosiderin rim, which is a distinctive feature of the lesion in the ground truth, nor does it provide a specific mention of a well-defined mixed signal intensity lesion in the left cerebellar hemisphere.
+
+Clean response:
+case0115_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly states that the lesions are in the frontal lobe, whereas the ground truth describes a micronodule abscess in the right centrum semiovale, which is a specific location in the brain.
+
+Clean response:
+case0115_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description misinterprets the imaging findings, instead suggesting a central calcification, whereas the ground truth describes a micronodule abscess with peripheral rim enhancement, and lacks mention of calcification.
+3. 0 (the predicted description does not accurately reflect the ground truth, with significant discrepancies in the nature of the abnormality and its characteristics.)
+
+Clean response:
+case0115_003.png
+assistant
+
+Alignment: Not Aligned
+
+Brief explanation: The predicted description does not accurately match the ground truth description as it does not mention ventricular enlargement, subependymal rim of hyperintensity, or the specific locations of hyperintense material in the lateral ventricles and the presence of restricted diffusion in certain areas, which are key findings in the ground truth description.
+
+Score: 0.2 (out of 1)
+
+Clean response:
+case0115_004.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the imaging sequence as T1-weighted post-contrast MRI of the brain, whereas the ground truth describes MR FLAIR images, which show different signal characteristics.
+3. 0.2 (the predicted description fails to accurately capture the clinical findings, particularly the specific imaging sequences and signal characteristics used in the ground truth description)
+
+Clean response:
+case0115_005.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description does not accurately reflect the clinical findings in the ground truth description as it mentions hyperintense lesions in the periventricular white matter, suggesting a demyelinating disease, whereas the ground truth description indicates the presence of an abscess and its resolution after treatment, with no mention of demyelinating disease or white matter lesions.
+
+Score: 0.15 (15% alignment)
+
+Clean response:
+case0115_006.png
+assistant
+
+Alignment: Aligned
+Brief explanation: The predicted description of hyperintense lesions with contrast enhancement in the right frontal lobe is consistent with the ground truth description of an abscess in the right ventricle, which showed significant improvement after antibiotic therapy and drainage.
+
+Score: 0.9
+
+Reasoning: The predicted description accurately mentions the presence of contrast-enhancing lesions, which is consistent with an abscess. However, the predicted description does not specifically mention the clinical context of antibiotic therapy and drainage, which is a crucial piece of information that is present in the ground truth description. This minor discrepancy prevents the prediction from being a perfect match, hence a score of 0.9.
+
+Clean response:
+case0115_007.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description inaccurately describes the imaging findings as a T1-weighted MRI scan of the brain, whereas the ground truth is a chest X-ray, and the described abnormalities are consistent with a micronodule abscess, not a cerebral lesion.
+
+Clean response:
+case0127_001.png
+assistant
+
+Alignment: Aligned
+Brief Explanation: The predicted description accurately identifies the location (left basal ganglia region, specifically putamen and caudate nucleus) and type (hyperintense signals) of the abnormality, and mentions possible interpretations that align with the ground truth description (symmetric hyperintense signals in the putamen and thalami).
+
+Score: 0.9
+
+Clean response:
+case0127_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description is not aligned with the ground truth as it mentions basal ganglia and third ventricle, whereas the ground truth describes a "face of the giant panda" in the midbrain, indicating a different location and radiological feature.
+3. Score: 0.05 (very low, as the predicted description does not even mention the midbrain or the characteristic "face of the giant panda" feature, indicating a significant deviation from the ground truth)
+
+Clean response:
+case0127_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions a temporal lobe abnormality, while the ground truth description refers to a finding in the pons, indicating a significant discrepancy in the location.
+3. Score: 0.15 (the predicted description is not even close to the ground truth description, with only a very minor mention of possible locations that do not match the actual finding in the ground truth description)
+
+Clean response:
+case0135_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description inaccurately states that the abnormality is located in the pons and shows a hyperintense signal on T2-weighted MRI, whereas the ground truth description indicates a T2/FLAIR signal hyperintensity without restricted diffusivity, and contrast enhancement with "peppering" the pons.
+
+Score: 0.2 (the predicted description lacks specific details about the sequence type, diffusion characteristics, and the presence of contrast enhancement, which are crucial for accurate diagnosis)
+
+Clean response:
+case0135_002.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is not aligned with the ground truth description as it mentions a brain MRI, whereas the ground truth description specifically mentions a follow-up brain MRI, and the abnormalities are described in different sequences (T2-weighted, T2-FLAIR weighted, and contrast-enhanced T1-weighted) and show partial resolution, which is not mentioned in the predicted description.
+
+Score: 0.2 (very low, as the predicted description does not mention the specific MRI sequences or the clinical context, and the ground truth description provides more detailed information about the clinical findings and the sequence used).
+
+Clean response:
+case0135_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description refers to an MRI sequence, whereas the ground truth description is a follow-up brain MRI with specific sequence types (T2-weighted, T2-FLAIR, and contrast-enhanced T1-weighted), indicating a misidentification of the imaging modality.
+3. Score: 0.2 (the description does not even mention the imaging modality, let alone the specific sequence types, which are crucial for accurate diagnosis)
+
+Clean response:
+case0135_004.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description refers to a brain MRI, whereas the ground truth description is actually a follow-up chest X-ray, not a brain MRI.
+
+Clean response:
+case0135_005.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly identifies the abnormality as being located in the midbrain region, whereas the ground truth description clearly indicates that the signal hyperintensity involves the brainstem, predominantly the pons.
+
+Clean response:
+case0135_006.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately localizes the abnormality to the midbrain region and incorrectly suggests calcifications or hemorrhage, whereas the ground truth describes hyperintense signal changes in the pons with patchy contrast enhancement.
+3. Score: 0.2 (the prediction is partially correct in terms of the presence of hyperintensity on FLAIR imaging, but the location, nature, and clinical correlation of the findings are significantly different from the ground truth.)
+
+Clean response:
+case0150_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the signal intensity as hypointense, whereas the ground truth describes it as hyperintense, indicating a mismatch in the radiological findings.
+3. Score: 0.2 (The predicted description only partially captures the clinical findings, but the core information about the location and signal intensity is incorrect.)
+
+Clean response:
+case0150_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly states the imaging modality as T2-weighted axial MRI of the brain when it should be T2-weighted axial image of the brain, and it also mentions ventricles and sulci which are not visible on a T2-weighted image.
+3. 0 (the prediction is completely off-target, including the imaging modality and anatomical details)
+
+Clean response:
+case0150_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions FLAIR MRI, thalamic region, hyperintense signal, calcification, and hemorrhage, whereas the ground truth describes hypointense signal intensity in the caudate nucleus and putamen on a FLAIR image, without mentioning calcification or hemorrhage.
+3. Score: 0.2 (The predicted description has some superficial similarities with the ground truth, but it introduces incorrect information about the signal intensity and does not accurately describe the specific locations mentioned in the ground truth.)
+
+Clean response:
+case0150_004.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly identifies the imaging sequence as a FLAIR sequence and does not mention the ADC images, which are crucial for evaluating diffusion restriction, a key aspect of the ground truth description.
+
+Clean response:
+case0200_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly mentions a T2-weighted MRI scan of the brain, which is not consistent with the provided image being a chest X-ray, and also incorrectly describes the location and surrounding structures.
+
+Score: 0.2 (The prediction deviates significantly from the ground truth, with incorrect image modality, location, and surrounding structures mentioned.)
+
+Clean response:
+case0208_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description is incorrect as it references a coronal T1-weighted MRI scan of the brain, whereas the ground truth is a post-contrast T1 FSE sequence of the chest, not the brain.
+3. 0.0 (The description is completely unrelated to the actual imaging modality and sequence used in the ground truth.)
+
+Clean response:
+case0212_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly refers to FLAIR and T2-weighted imaging, whereas the ground truth description uses FLAIR and T2WI (T2-weighted imaging), indicating a discrepancy in terminology.
+3. 0.2 (the predicted description only partially captures the location and general nature of the abnormality, but lacks specificity and accuracy regarding the imaging modality and clinical context.)
+
+Clean response:
+case0212_002.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description incorrectly states that the abnormality is located in the central region, specifically mentioning the thalamus or basal ganglia, whereas the ground truth description mentions bilateral hyperintensities in the frontoparietal and temporal subcortical white matter, without any mention of these specific structures.
+
+Score: 0.2 (The predicted description is 20% similar to the ground truth description, primarily due to the mention of hyperintense areas, but the location and specific structures mentioned are not accurate.)
+
+Clean response:
+case0212_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly mentions cerebral hemispheres, basal ganglia, and internal capsule, whereas the ground truth specifically mentions the globi pallidi, putamen, and caudate nucleus, indicating a more localized involvement.
+3. Score: 0.2 (the predicted description does not accurately capture the specific locations and structures involved in the ground truth description)
+
+Clean response:
+case0212_004.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description mistakenly identifies the thalamus as the location of the abnormality, whereas the ground truth description indicates the abnormality is located in the globi pallidi and dentate nucleus, which is a different region in the brain.
+
+Clean response:
+case0246_001.png
+assistant
+
+1. Aligned
+2. The predicted description accurately identifies the location (basal ganglia) and type (hyperintense lesions) of the lesions, but incorrectly specifies the imaging modality (T1-weighted MRI of the brain instead of a chest X-ray) and suggests Fahr's syndrome, which is not typically associated with basal ganglia calcifications.
+3. Score: 0.6 (60%) - The prediction aligns with the clinical findings in terms of location and lesion type, but contains significant errors in modality and clinical correlation.
+
+Clean response:
+case0247_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description focuses on the thalami, while the ground truth description highlights the dilatation of bilateral lateral ventricles and third ventricle due to compression, which is unrelated to the thalami.
+
+Clean response:
+case0255_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description focuses on brain pathology and does not mention the extracranial soft tissue mass, which is a key finding in the ground truth description. 
+
+Score: 0.2 (2/10)
+
+The predicted description's focus on brain pathology and lack of mention of the extracranial mass lead to a significant mismatch with the ground truth description, indicating a poor alignment.
+
+Clean response:
+case0255_002.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is not aligned with the ground truth description as it mentions a sagittal T1-weighted MRI scan of the brain, whereas the ground truth describes a non-contrast enhanced sagittal T1-weighted image showing a subcutaneous extracranial soft tissue mass, indicating a location outside the brain.
+
+Score: 0.2 (0-1 scale, where 1 represents a perfect match and 0 represents no match)
+
+Clean response:
+case0255_003.png
+assistant
+
+1. Not Aligned
+2. The predicted description mentions calcifications or hemorrhagic lesions, but the ground truth description specifically mentions a communicating emissary vein, which is not mentioned in the predicted description.
+3. 0.2 (The prediction is partially relevant, but lacks specificity and accuracy in describing the clinical findings, particularly the presence of a communicating emissary vein.)
+
+Clean response:
+case0274_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately describes the anatomic location and the clinical implications of the findings, suggesting a brain MRI rather than a chest X-ray, and does not mention the specific locations of infarct and cortical diffusion restriction in the ground truth description.
+3. 0.0 (The predicted description is completely off-target and lacks relevant details, indicating a significant mismatch with the ground truth description.)
+
+Clean response:
+case0274_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description incorrectly identifies the imaging modality as a T2-weighted MRI of the brain, whereas the ground truth is actually an MRI FLAIR and T2 image of the brain, and it also mislocates the regions of hyperintensity.
+3. 0.4 (The predicted description has some superficial similarities with the ground truth in terms of the location and nature of the lesions, but significant discrepancies exist in the imaging modality and precise location of the affected areas.)
+
+Clean response:
+case0275_001.png
+assistant
+
+1. Not Aligned
+2. The predicted description mistakenly references a brain MRI image and discusses calcification or hemorrhage, whereas the ground truth description describes polymicrogyria, a condition affecting the cortical surface of the brain.
+3. Score: 0 (The predicted description does not accurately reflect the ground truth description, as it refers to a different imaging modality and does not describe the actual findings of polymicrogyria.)
+
+Clean response:
+case0275_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description inaccurately describes the findings as hyperintense lesions on T1-weighted images, whereas the ground truth describes polymicrogyria, a condition characterized by a characteristic pattern of abnormally small gyri on the surface of the brain.
+3. Score: 0.2 (the prediction only partially captures the clinical findings, but the main description of the lesion characteristics and clinical implications is incorrect)
+
+Clean response:
+case0277_001.png
+assistant
+
+Alignment: Not Aligned
+
+The predicted description is primarily based on a T1-weighted MRI, whereas the ground truth description provides a comprehensive evaluation of the lesion using multiple imaging sequences, including T1-weighted, T2-weighted, susceptibility-weighted, coronal, axial, diffusion-weighted imaging (DWI), and post-contrast images.
+
+Score: 0.4 (The predicted description lacks specificity and does not fully capture the complexity of the clinical findings, particularly the absence of diffusion restriction on DWI and the enhancement pattern on post-contrast images.)
+
+Clean response:
+case0277_002.png
+assistant
+
+1. Not Aligned
+2. The predicted description does not accurately reflect the ground truth, as it incorrectly identifies the lesion as hyperintense on T2-weighted images and does not mention calcification or post-contrast enhancement.
+3. Score: 0.4 (out of 1)
+
+Clean response:
+case0277_003.png
+assistant
+
+1. Aligned
+2. The predicted description inaccurately described the MRI sequence as "coronal T1-weighted" instead of "axial" and did not mention the susceptibility-weighted sequence, which is crucial for characterizing the calcified lesion.
+3. Score: 0.7 (The predicted description partially aligns with the ground truth, but contains significant errors and omissions that affect its accuracy.)
+
+Clean response:
+case0277_004.png
+assistant
+
+1. Alignment: Aligned
+2. The predicted description aligns with the ground truth description, as it mentions hypointense signal characteristics, possible interpretations of calcification, and the need for further evaluation with additional sequences.
+3. Score: 0.9
+
+The predicted description accurately captures the main findings, including the location, signal characteristics, and potential interpretations of the lesion. The only minor difference is that the ground truth description provides more specific details about the lesion's appearance on different sequences (e.g., T2-weighted, susceptibility-weighted, and diffusion-weighted imaging), which are not mentioned in the predicted description.
+
