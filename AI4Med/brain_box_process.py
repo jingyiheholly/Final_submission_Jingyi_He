@@ -47,7 +47,7 @@ import os
 import csv
 img_folder = '/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images'
 img_path = []
-csv_file = 'image_boxes_3.csv'
+csv_file = 'image_boxes_4.csv'
 # Iterate over all files in the folder
 for filename in os.listdir(img_folder):
     # Optionally filter only image files (e.g., jpg, png, etc.)

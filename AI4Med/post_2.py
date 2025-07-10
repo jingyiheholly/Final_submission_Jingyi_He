@@ -2,24 +2,41 @@ import csv
 import ast
 import os
 import json
-input_file = '/root/autodl-tmp/HuatuoGPT-Vision/image_boxes_2.csv'  # replace with your file path
-output_data = []
+from PIL import Image
 from VLM_Seminar25_Dataset.scripts.calculate_map import compute_map_supervision, draw_boxes_2
+input_file = '/root/autodl-tmp/HuatuoGPT-Vision/image_boxes_3.csv'
+output_data = []
+
+# Step 1: Read normalized boxes and convert to absolute pixel coords
 with open(input_file, newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
         img_path = row['img_path']
         boxes_str = row['boxes']
-
-        # Get the image ID (filename only)
         img_id = os.path.basename(img_path)
 
-        # Parse the box string into a list of lists of floats
         try:
-            parsed_boxes = ast.literal_eval(boxes_str)  # e.g., ['[263.7, 184.5, 309.1, 220]']
-            boxes = [ast.literal_eval(box) for box in parsed_boxes if box.strip()]
-        except:
+            parsed_boxes = ast.literal_eval(boxes_str)  # e.g., ['[0.47, 0.26, 0.81, 0.59]'] or ['[]']
+    
+            # Open image to get dimensions
+            img = Image.open(img_path)
+            W, H = img.size
+
             boxes = []
+            for box_str in parsed_boxes:
+                box_str = box_str.strip()
+                if box_str == '[]':
+                    continue  # skip empty boxes
+                norm_box = ast.literal_eval(box_str)  # e.g., [0.47, 0.26, 0.81, 0.59]
+                x1 = norm_box[0] * W
+                y1 = norm_box[1] * H
+                x2 = norm_box[2] * W
+                y2 = norm_box[3] * H
+                boxes.append([x1, y1, x2, y2])
+        except Exception as e:
+            print(f"Failed to process {img_path}: {e}")
+            boxes = []
+
 
         output_data.append((img_id, boxes))
 
@@ -37,11 +54,32 @@ for case_id, case_info in data.items():
         for box in boxes:
             output_gt.append((img_name, box))
 
-
+csv_output_path = "map_brain.csv"
 # Print or use the output_data
-for img_id, boxes in output_data:
-    print("image_id is"+str(img_id))
-    boxes_for_img = [box for name, box in output_gt if name == img_id]
-    result=compute_map_supervision(boxes[0], None, boxes_for_img, None)
-    print(result)
+with open(csv_output_path, mode='w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    # Write header
+    writer.writerow(["img_id", "mAP@50:95", "mAP@50", "mAP@75"])
+
+    for img_id, boxes in output_data:
+        print("image_id is " + str(img_id))
+
+        # Find all ground truth boxes for this image
+        boxes_for_img = [box for name, box in output_gt if name == img_id]
+
+        # Skip if no GT
+        if not boxes_for_img:
+            print(f"No ground truth for {img_id}, skipping.")
+            continue
+
+        # Compute mAP
+        result = compute_map_supervision(boxes[0], None, boxes_for_img, None)
+
+        # Print results
+        print("mAP@50:95:", result.map50_95)
+        print("mAP@50:   ", result.map50)
+        print("mAP@75:   ", result.map75)
+
+        # Write to CSV
+        writer.writerow([img_id, result.map50_95, result.map50, result.map75])
     
