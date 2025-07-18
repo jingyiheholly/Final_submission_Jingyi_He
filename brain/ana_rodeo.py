@@ -28,7 +28,7 @@ for img_id, group in df.groupby("case_id"):
         pred_boxes.extend(row['pred_boxes'])
 
     if len(pred_boxes) == 0:
-        print(f"\n❌ Error: No predicted boxes for case {img_id}. Skipping...")
+        print(f"\n Error: No predicted boxes for case {img_id}. Skipping...")
         continue
 
     # Convert to numpy arrays
@@ -44,6 +44,6 @@ for img_id, group in df.groupby("case_id"):
     rodeo.add(pred_boxes, gt_boxes)
     score = rodeo.compute()
 
-    print(f"\n✅ Results for case: {img_id}")
+    print(f"\n Results for case: {img_id}")
     for k, v in score.items():
         print(f"{k}: {v}")
