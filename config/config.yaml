@@ -14,6 +14,7 @@ brain:
   img_dir: "${datasets.brain_mri}/images"
   annotations: "${datasets.brain_mri}/annotations.json"
   model: "unet"
+  eva_model: "meta-llama/Llama-3.1-8B-Instruct"
 
 out_dir: "${base_dir}/output"
 

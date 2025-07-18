@@ -19,7 +19,7 @@ model = AutoModelForCausalLM.from_pretrained(
 model.eval()
 
 # Load prediction JSON (input)
-prediction_json_path = "/home/hejin/Aimed/AI4Med/caption_with_similarity.json"
+prediction_json_path = "caption_with_similarity.json"
 with open(prediction_json_path, "r") as f:
     predictions = json.load(f)
 

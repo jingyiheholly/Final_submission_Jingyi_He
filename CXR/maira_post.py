@@ -75,12 +75,7 @@ def postprocessing_csv(csv_path: str) -> dict:
                 if pixel_box:
                     bbox_dict[image_id].append(pixel_box[0])
                     row["Processed_box_2"]=pixel_box[0]
-                    
-            '''with open(csv_path, mode="w", newline='', encoding='utf-8') as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
-                writer.writeheader()
-                writer.writerows(rows)'''
-    
+                       
     return dict(health_status),bbox_dict
 
 def extract_gt_and_pred_lists(ground_truth: dict, prediction_status: dict) -> tuple[list[str], list[str]]:
