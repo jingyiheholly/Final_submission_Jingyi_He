@@ -13,8 +13,8 @@ The code in this repository supports two main application areas in medical imagi
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/jingyiheholly/Final_submission_Jingyi_He.git
+cd Final_submission_Jingyi_He
 ```
 
 ### 2. Download the datasets
