@@ -1,0 +1,93 @@
+img_path,output
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0005_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0005_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0005_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0012_001.png,"['[0.47, 0.26, 0.81, 0.59]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0012_002.png,"['[0.38, 0.26, 0.71, 0.54]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0012_003.png,"['[0.47, 0.32, 0.68, 0.51]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0012_004.png,"['[0.51, 0.34, 0.69, 0.72]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0012_005.png,"['[0.43, 0.26, 0.71, 0.58]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0012_006.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0018_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0018_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0018_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0034_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0034_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0034_003.png,"['[0.45, 0.61, 0.73, 0.82]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0034_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0034_005.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0043_001.png,"['[0.52, 0.31, 0.67, 0.49]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0043_002.png,"['[0.26, 0.38, 0.41, 0.5]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0043_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0043_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0043_005.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0054_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0061_001.png,"['[0.47, 0.32, 0.61, 0.5]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0061_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_002.png,"['[0.48, 0.59, 0.61, 0.72]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_005.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_006.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_007.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_008.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_009.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_010.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0070_011.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0080_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0080_002.png,"['[0.37, 0.41, 0.52, 0.6]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0080_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0080_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0080_005.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0080_006.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0088_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0088_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0088_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0088_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0106_001.png,"['[0.47, 0.38, 0.65, 0.59]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0106_002.png,"['[0.46, 0.39, 0.57, 0.52]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0106_003.png,"['[0.38, 0.56, 0.49, 0.71]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0106_004.png,"['[0.49, 0.51, 0.63, 0.7]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0113_001.png,"['[0.24, 0.36, 0.35, 0.47]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0113_002.png,"['[0.21, 0.39, 0.47, 0.5]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0113_003.png,"['[0.54, 0.63, 0.71, 0.8]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_001.png,"['[0.26, 0.31, 0.45, 0.49]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_002.png,"['[0.31, 0.42, 0.38, 0.5]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_005.png,"['[0.37, 0.29, 0.46, 0.51]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_006.png,"['[0.23, 0.41, 0.35, 0.5]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0115_007.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0127_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0127_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0127_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0135_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0135_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0135_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0135_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0135_005.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0135_006.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0150_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0150_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0150_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0150_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0200_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0208_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0212_001.png,"['[0.24, 0.36, 0.51, 0.7]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0212_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0212_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0212_004.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0246_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0247_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0255_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0255_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0255_003.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0274_001.png,"['[0.12, 0.34, 0.59, 0.7]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0274_002.png,"['[0.36, 0.19, 0.58, 0.42]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0275_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0275_002.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0277_001.png,['[]']
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0277_002.png,"['[0.16, 0.23, 0.47, 0.5]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0277_003.png,"['[0.16, 0.25, 0.79, 0.48]']"
+/root/autodl-tmp/VLM_Seminar25_Dataset/nova_brain/images/case0277_004.png,"['[0.17, 0.23, 0.46, 0.5]']"
