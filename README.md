@@ -38,24 +38,8 @@ The directory structure should look like:
 └── brain_mri/       # MRI images for HuatuoGPT-Vision
 ```
 
-### 3. Install dependencies
-
-Make sure to install required packages (preferably in a virtual environment):
-
-```bash
-pip install -r requirements.txt
-```
-
 ## 🧠 Models Used
 
 - **Maira-2**: A Vision-Language Model optimized for chest X-ray interpretation.
 - **HuatuoGPT-Vision**: A medical vision-language model applied here for brain MRI tasks.
 
-## 💡 Notes
-
-- This code is intended for academic use in the context of the seminar.
-- Ensure that you comply with dataset license terms before downloading and using any data.
-
-## 📬 Contact
-
-If you have questions or suggestions, feel free to reach out!
